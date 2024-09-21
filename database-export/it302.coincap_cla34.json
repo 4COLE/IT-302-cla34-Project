@@ -1,0 +1,240 @@
+[{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f03e"
+  },
+  "id": "bitcoin",
+  "name": "Bitcoin",
+  "symbol": "BTC",
+  "priceUsd": "63301.2373936671745134",
+  "rank": "1",
+  "image": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f03f"
+  },
+  "id": "ethereum",
+  "name": "Ethereum",
+  "symbol": "ETH",
+  "priceUsd": "2569.9037827577498351",
+  "rank": "2",
+  "image": "https://assets.coingecko.com/coins/images/2/large/ethereum.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f040"
+  },
+  "id": "tether",
+  "name": "Tether",
+  "symbol": "USDT",
+  "priceUsd": "1.0006839438770307",
+  "rank": "3",
+  "image": "https://assets.coingecko.com/coins/images/3/large/tether.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f041"
+  },
+  "id": "binance-coin",
+  "name": "BNB",
+  "symbol": "BNB",
+  "priceUsd": "584.8073639965014931",
+  "rank": "4",
+  "image": "https://assets.coingecko.com/coins/images/4/large/binance-coin.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f042"
+  },
+  "id": "solana",
+  "name": "Solana",
+  "symbol": "SOL",
+  "priceUsd": "148.3486195239613102",
+  "rank": "5",
+  "image": "https://assets.coingecko.com/coins/images/5/large/solana.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f043"
+  },
+  "id": "usd-coin",
+  "name": "USDC",
+  "symbol": "USDC",
+  "priceUsd": "1.0005876372179135",
+  "rank": "6",
+  "image": "https://assets.coingecko.com/coins/images/6/large/usd-coin.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f044"
+  },
+  "id": "xrp",
+  "name": "XRP",
+  "symbol": "XRP",
+  "priceUsd": "0.6029716410440913",
+  "rank": "7",
+  "image": "https://assets.coingecko.com/coins/images/7/large/xrp.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f045"
+  },
+  "id": "steth",
+  "name": "Lido Staked ETH",
+  "symbol": "STETH",
+  "priceUsd": "2562.6296870731448788",
+  "rank": "8",
+  "image": "https://assets.coingecko.com/coins/images/8/large/steth.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f046"
+  },
+  "id": "dogecoin",
+  "name": "Dogecoin",
+  "symbol": "DOGE",
+  "priceUsd": "0.1085677483231967",
+  "rank": "9",
+  "image": "https://assets.coingecko.com/coins/images/9/large/dogecoin.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f047"
+  },
+  "id": "tron",
+  "name": "TRON",
+  "symbol": "TRX",
+  "priceUsd": "0.1525481026457526",
+  "rank": "10",
+  "image": "https://assets.coingecko.com/coins/images/10/large/tron.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f048"
+  },
+  "id": "cardano",
+  "name": "Cardano",
+  "symbol": "ADA",
+  "priceUsd": "0.3571964783288109",
+  "rank": "11",
+  "image": "https://assets.coingecko.com/coins/images/11/large/cardano.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f049"
+  },
+  "id": "avalanche",
+  "name": "Avalanche",
+  "symbol": "AVAX",
+  "priceUsd": "27.5519353463574729",
+  "rank": "12",
+  "image": "https://assets.coingecko.com/coins/images/12/large/avalanche.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f04a"
+  },
+  "id": "wrapped-bitcoin",
+  "name": "Wrapped Bitcoin",
+  "symbol": "WBTC",
+  "priceUsd": "63196.4454626519190170",
+  "rank": "13",
+  "image": "https://assets.coingecko.com/coins/images/13/large/wrapped-bitcoin.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f04b"
+  },
+  "id": "shiba-inu",
+  "name": "Shiba Inu",
+  "symbol": "SHIB",
+  "priceUsd": "0.0000148316812976",
+  "rank": "14",
+  "image": "https://assets.coingecko.com/coins/images/14/large/shiba-inu.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f04c"
+  },
+  "id": "chainlink",
+  "name": "Chainlink",
+  "symbol": "LINK",
+  "priceUsd": "11.3602200529169311",
+  "rank": "15",
+  "image": "https://assets.coingecko.com/coins/images/15/large/chainlink.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f04d"
+  },
+  "id": "bitcoin-cash",
+  "name": "Bitcoin Cash",
+  "symbol": "BCH",
+  "priceUsd": "343.5126263606399879",
+  "rank": "16",
+  "image": "https://assets.coingecko.com/coins/images/16/large/bitcoin-cash.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f04e"
+  },
+  "id": "polkadot",
+  "name": "Polkadot",
+  "symbol": "DOT",
+  "priceUsd": "4.4231971300243675",
+  "rank": "17",
+  "image": "https://assets.coingecko.com/coins/images/17/large/polkadot.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f04f"
+  },
+  "id": "multi-collateral-dai",
+  "name": "Multi Collateral DAI",
+  "symbol": "DAI",
+  "priceUsd": "1.0006779577789161",
+  "rank": "18",
+  "image": "https://assets.coingecko.com/coins/images/18/large/multi-collateral-dai.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f050"
+  },
+  "id": "unus-sed-leo",
+  "name": "UNUS SED LEO",
+  "symbol": "LEO",
+  "priceUsd": "5.7294941150254871",
+  "rank": "19",
+  "image": "https://assets.coingecko.com/coins/images/19/large/unus-sed-leo.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+},
+{
+  "_id": {
+    "$oid": "66ef0d66b5a8f99084c8f051"
+  },
+  "id": "near-protocol",
+  "name": "NEAR Protocol",
+  "symbol": "NEAR",
+  "priceUsd": "4.5141303397714110",
+  "rank": "20",
+  "image": "https://assets.coingecko.com/coins/images/20/large/near-protocol.png",
+  "lastUpdated": "2024-09-21 14:16:06"
+}]
