@@ -1,3 +1,5 @@
+// Cole Abney 9/24/2024 IT 302-451 Phase 2 cla34@njit.edu
+
 const { MongoClient } = require('mongodb');
 require('dotenv').config();
 const CoinDAO = require('./dao/CoinDAO');

@@ -1,3 +1,5 @@
+// Cole Abney 9/24/2024 IT 302-451 Phase 2 cla34@njit.edu
+
 const express = require('express');
 const cors = require('cors');
 const initMongo = require('./index');
