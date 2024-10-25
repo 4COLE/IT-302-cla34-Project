@@ -1,0 +1,99 @@
+[{
+  "_id": {
+    "$oid": "66e7891fa061a91b7762dac2"
+  },
+  "title": "Star Trek Into Darkness",
+  "year": 2013,
+  "genre": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "actors": [
+    "Pine, Chris",
+    "Quinto, Zachary",
+    "Saldana, Zoe"
+  ],
+  "releases": [
+    {
+      "country": "USA",
+      "date": {
+        "$date": "2013-05-17T00:00:00.000Z"
+      },
+      "prerelease": true
+    },
+    {
+      "country": "Germany",
+      "date": {
+        "$date": "2003-05-16T00:00:00.000Z"
+      },
+      "prerelease": false
+    }
+  ],
+  "rating": 6.4
+},
+{
+  "_id": {
+    "$oid": "66e78964a061a91b7762dac4"
+  },
+  "title": "Iron Man 3",
+  "year": 2013,
+  "genre": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "actors": [
+    "Downey Jr., Robert",
+    "Paltrow, Gwyneth"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66e78964a061a91b7762dac5"
+  },
+  "title": "This Means War",
+  "year": 2011,
+  "genre": [
+    "Action",
+    "Comedy",
+    "Romance"
+  ],
+  "actors": [
+    "Pine, Chris",
+    "Witherspoon, Reese",
+    "Hardy, Tom"
+  ],
+  "releases": [
+    {
+      "country": "USA",
+      "date": {
+        "$date": "2011-02-17T00:00:00.000Z"
+      },
+      "prerelease": false
+    },
+    {
+      "country": "UK",
+      "date": {
+        "$date": "2011-03-01T00:00:00.000Z"
+      },
+      "prerelease": true
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66e78964a061a91b7762dac6"
+  },
+  "title": "The Amazing Spider-Man 2",
+  "year": 2014,
+  "genre": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "actors": [
+    "Stone, Emma",
+    "Woodley, Shailene"
+  ]
+}]
