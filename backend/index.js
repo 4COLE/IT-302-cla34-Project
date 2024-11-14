@@ -14,7 +14,14 @@ async function initMongo() {
     console.log("MongoDB connected");
   } catch (err) {
     console.error(err);
+  } finally {
+    await client.close();
+    console.log("MongoDB connection closed");
   }
 }
+
+// Immediately invoke the function
+console.log("Attempting to connect to MongoDB...");
+initMongo().catch(console.error);
 
 module.exports = initMongo;
