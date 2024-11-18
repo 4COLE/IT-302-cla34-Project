@@ -6,5 +6,6 @@ const CoinController = require('./coins.controller');
 const router = express.Router();
 
 router.route('/').get(CoinController.apiGetCoins);
+router.route('/:id').get(CoinController.apiGetCoinById); 
 
 module.exports = router;

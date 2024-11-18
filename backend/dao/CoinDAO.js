@@ -1,5 +1,7 @@
 // Cole Abney 9/24/2024 IT 302-451 Phase 2 cla34@njit.edu
 
+const { ObjectId } = require('mongodb');
+
 let coins;
 
 class CoinDAO {
@@ -22,6 +24,16 @@ class CoinDAO {
       return coinList;
     } catch (err) {
       console.error(`Unable to execute find command, ${err}`);
+      return { error: err };
+    }
+  }
+
+  static async getCoinById(id) {
+    try {
+      const coin = await coins.findOne({ _id: new ObjectId(id) });
+      return coin;
+    } catch (err) {
+      console.error(`Unable to find coin: ${err}`);
       return { error: err };
     }
   }

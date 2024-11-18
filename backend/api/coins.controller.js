@@ -19,6 +19,19 @@ class CoinController {
       res.status(500).json({ error: error.message });
     }
   }
+
+  static async apiGetCoinById(req, res, next) {
+    try {
+      const coin = await CoinDAO.getCoinById(req.params.id);
+      if (!coin) {
+        res.status(404).json({ error: "Coin not found" });
+        return;
+      }
+      res.json(coin);
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    }
+  }
 }
 
 module.exports = CoinController;
