@@ -34,4 +34,25 @@ class CoinController {
   }
 }
 
+class CommentController {
+  static async apiPostComment(req, res, next) {
+    try {
+      const { text, userName, userId } = req.body; 
+      const coinId = req.params.id;
+      const commentInfo = {
+        coinId,
+        text,
+        userName, 
+        userId,
+        lastModified: new Date()
+      };
+      
+      const result = await CommentDAO.addComment(commentInfo);
+      res.json({ status: "success", result });
+    } catch (e) {
+      res.status(500).json({ error: e.message });
+    }
+  }
+}
+
 module.exports = CoinController;

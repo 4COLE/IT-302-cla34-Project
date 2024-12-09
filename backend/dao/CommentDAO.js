@@ -15,7 +15,11 @@ class CommentDAO {
 
   static async addComment(commentInfo) {
     try {
-      return await comments.insertOne(commentInfo);
+      const commentDoc = {
+        ...commentInfo,
+        lastModified: new Date(),
+      };
+      return await comments.insertOne(commentDoc);
     } catch (e) {
       console.error(`Unable to post comment: ${e}`);
       return { error: e };
@@ -42,6 +46,17 @@ class CommentDAO {
       });
     } catch (e) {
       console.error(`Unable to delete comment: ${e}`);
+      return { error: e };
+    }
+  }
+
+  static async getComments(coinId) {
+    try {
+      return await comments.find({ coinId })
+        .sort({ lastModified: -1 })
+        .toArray();
+    } catch (e) {
+      console.error(`Unable to get comments: ${e}`);
       return { error: e };
     }
   }

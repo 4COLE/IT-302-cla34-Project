@@ -3,9 +3,20 @@
 const CommentDAO = require('../dao/CommentDAO');
 
 class CommentController {
+  static async apiGetComments(req, res, next) {
+    try {
+      const coinId = req.params.id;
+      const comments = await CommentDAO.getComments(coinId);
+      res.json(comments);
+    } catch (e) {
+      res.status(500).json({ error: e.message });
+    }
+  }
+
   static async apiPostComment(req, res, next) {
     try {
-      const { coinId, text, userName, userId } = req.body;
+      const { text, userName, userId } = req.body;
+      const coinId = req.params.id;
       const commentInfo = {
         coinId,
         text,
@@ -24,7 +35,7 @@ class CommentController {
   static async apiUpdateComment(req, res, next) {
     try {
       const { text, userId } = req.body;
-      const commentId = req.params.id;
+      const commentId = req.params.commentId;
       
       const result = await CommentDAO.updateComment(commentId, userId, text);
       
@@ -40,7 +51,7 @@ class CommentController {
 
   static async apiDeleteComment(req, res, next) {
     try {
-      const commentId = req.params.id;
+      const commentId = req.params.commentId;
       const { userId } = req.body;
       
       const result = await CommentDAO.deleteComment(commentId, userId);
